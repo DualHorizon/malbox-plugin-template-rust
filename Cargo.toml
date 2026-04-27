@@ -1,0 +1,10 @@
+[package]
+name = "my-malbox-plugin"
+version = "0.1.0"
+edition = "2024"
+description = "A malbox plugin"
+publish = false
+
+[dependencies]
+malbox-plugin-sdk = { git = "https://github.com/DualHorizon/malbox.git", features = ["guest"] }
+serde = { version = "1", features = ["derive"] }

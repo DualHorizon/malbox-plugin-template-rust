@@ -1,0 +1,16 @@
+[plugin]
+name = "my-malbox-plugin"
+version = "0.1.0"
+description = "A malbox plugin"
+authors = ["Your Name"]
+type = "guest"
+
+[runtime]
+state = "ephemeral"
+execution = "exclusive"
+
+[results.output]
+description = "Plugin output"
+user_visible = true
+display_name = "Output"
+render = "json"
